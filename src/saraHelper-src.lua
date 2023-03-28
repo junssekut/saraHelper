@@ -467,7 +467,7 @@ function saraHelper.init(config_value)
         avatar = '',
         embed = jencode({
             title = sformat('HELPER SUMMARY'),
-            color = 0,
+            color = 11772835,
             fields = fields,
             footer = saraCore.WebhookHandler.getDefaultFooter(),
             timestamp = ldate(true):fmt('${iso}')
