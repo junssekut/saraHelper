@@ -322,7 +322,7 @@ local function execute(world_data, last)
                 if key == 'STATUS' then
                     local bot = getBot()
 
-                    webhook({ url = config.webhook, username = 'saraHelper', content = sformat('[**%s**] %s: %s', bot.world, bot.name, value)})
+                    webhook({ url = config.webhook, avatar = 'https://raw.githubusercontent.com/junssekut/saraHelper/main/img/saraHelper.png', username = 'saraHelper', content = sformat('[**%s**] %s: %s', bot.world, bot.name, value)})
 
                     sleep(250)
                 end
@@ -462,7 +462,7 @@ function saraHelper.init(config_value)
     webhook({
         url = config.webhook,
         username = 'saraHelper',
-        avatar = '',
+        avatar = 'https://raw.githubusercontent.com/junssekut/saraHelper/main/img/saraHelper.png',
         embed = jencode({
             title = sformat('HELPER SUMMARY'),
             color = 11772835,
