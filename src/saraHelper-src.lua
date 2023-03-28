@@ -348,8 +348,6 @@ local function execute(world_data, last)
     ---@type WorldStatus
     caches.STATUS = "SCANNING"
 
-    sleep(2500)
-
     for y = 0, 53 do
         for x = 0, 99 do
             if getTile(x, y).extra == 16 then
@@ -384,7 +382,7 @@ local function execute(world_data, last)
             sleep(5000)
         end
 
-        sleep(2500)
+        sleep(5000)
 
         for y = 0, 53 do
             for x = 0, 99 do
