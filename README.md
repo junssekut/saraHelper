@@ -11,7 +11,7 @@ If you need help implementing this, feels free to dm me at discord junssekut#496
 ## Output
 > The output of the script would be:
 
-<img src = 'img/output.png' alt = 'Output' width = '20%' height = '20%' title = 'Output' style = 'display:block; margin 0' />
+<img src = 'img/output.png' alt = 'Output' width = '35%' height = '35%' title = 'Output' style = 'display:block; margin 0' />
 
 ## How To Use
 
