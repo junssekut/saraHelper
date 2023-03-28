@@ -11,7 +11,7 @@ If you need help implementing this, feels free to dm me at discord junssekut#496
 ## Output
 > The output of the script would be:
 
-![output](img/output.png?raw=true 'Output')
+<img src = 'img/output.png' alt = 'Output' width = '20%' height = '20%' title = 'Output' style = 'display:block; margin 0' />
 
 ## How To Use
 
